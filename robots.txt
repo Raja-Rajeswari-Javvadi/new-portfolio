@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rajarajeswarijavvadi.azurewebsites.net/sitemap.xml

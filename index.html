@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/new-portfolio/code.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raja Rajeswari Javvadi - Web developer, Python developer and Data Scientist </title>
+     <meta name="description" content="Portfolio of Raja Rajeswari Javvadi, showcasing web development projects, skills, and experience." />
+  <meta name="keywords" content="Raja Rajeswari Javvadi, portfolio, web developer, React, JavaScript, front-end developer, TailwindCSS" />
+  <meta name="author" content="Raja Rajeswari Javvadi" />
+  <meta name="google-site-verification" content="cB5wNEnjKDWD09NGtcDB-eEsLtSLNtJ3Rh52lwjzaRk">
+
+
+      <!-- Open Graph Tags (for social media) -->
+  <meta property="og:title" content="Raja Rajeswari Javvadi - Portfolio" />
+  <meta property="og:description" content="Portfolio of Raja Rajeswari Javvadi, showcasing web development projects, skills, and experience." />
+  <meta property="og:image" content="https://rajarajeswarijavvadi.azurewebsites.net/hero.png" /> 
+  <meta property="og:url" content="https://rajarajeswarijavvadi.azurewebsites.net/" />
+  <meta property="og:type" content="website" />
+
+    <script>  
+      (function () {
+        const storedTheme = localStorage.getItem('theme');
+        if (storedTheme){
+          if (storedTheme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else if (storedTheme === 'light'){
+            document.documentElement.classList.remove('dark');
+          } else if (storedTheme === 'system'){
+            if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+              document.documentElement.classList.add('dark');
+            } else {
+              document.documentElement.classList.remove('dark');
+            }
+          }
+        }
+      })();
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Raja Rajeswari Javvadi",
+  "url": "https://rajarajeswarijavvadi.azurewebsites.net/",
+  "image": "https://rajarajeswarijavvadi.azurewebsites.net/hero.png",
+  "jobTitle": "Web Developer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Independent / Freelancer"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/raja-rajeswari-javvadi3/",
+    "https://github.com/Raja-Rajeswari-Javvadi/", 
+
+  ],
+  "description": "Portfolio of Raja Rajeswari Javvadi, a web developer specializing in React, JavaScript, and TailwindCSS. Showcasing projects, experience, skills, and certifications.",
+  "knowsAbout": [
+    "React",
+    "JavaScript",
+    "TailwindCSS",
+    "Web Development",
+    "Frontend Engineering",
+    "UI/UX Design"
+  ],
+  "email": "mailto:rajarajeswarijavvadi@gmail.com"
+}
+</script>
+
+    <script type="module" crossorigin src="/new-portfolio/assets/index-BarT3CGr.js"></script>
+    <link rel="stylesheet" crossorigin href="/new-portfolio/assets/index-yygXeOSI.css">
+  </head>
+  <body  class="bg-[#EEF0F2] text-slate-700 dark:bg-slate-800 dark:text-slate-300  lg:mx-10 ">
+    <div id="root"></div>
+    <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script> 
+    <script>
+        // Initialize Lenis
+      const lenis = new Lenis();
+
+      // Use requestAnimationFrame to continuously update the scroll
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+    </script>
+  </body>
+</html>
