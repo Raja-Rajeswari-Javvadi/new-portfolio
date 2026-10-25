@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import photo from "/hero.png";
-import resume from "/RajaRajeswariJavvadi_SoftwareEngineer_Resume.pdf";
+import resume from "/Raja_Rajeswari_Javvadi_Resume.pdf";
 import "../styles/home.css";
 import { useEffect } from "react";
 
@@ -186,7 +186,7 @@ const MainText = () => {
   };
 
   const content =
-    "Aspiring Software Engineer passionate about building scalable web applications, AI-driven solutions, and modern user experiences. Skilled in MERN Stack, Generative AI, RAG systems, and frontend development with hands-on experience in real-world projects and internships.";
+    "Junior Software Engineer working on AI-driven applications, Python-based data pipelines, and real-time robotics systems. Passionate about building practical software solutions that combine AI, automation, data, and modern application development.";
 
   return (
     <motion.p
