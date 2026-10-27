@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Sun, Moon, Menu, X } from "lucide-react";
-import resume from "/RajaRajeswariJavvadi_SoftwareEngineer_Resume.pdf";
+import resume from "/Raja_Rajeswari_Javvadi_Resume.pdf";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import useIntersectionObserver from "./observer";
 
